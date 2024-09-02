@@ -1,0 +1,16 @@
+[tool.poetry]
+package-mode = false
+name = "tg-where-admin"
+version = "0.1.0"
+description = ""
+authors = ["Francisco Demartino <git@fd1.com.ar>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Telethon = "^1.36.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
